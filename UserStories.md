@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     subgraph User Stories for BookMeIn2 System
         direction LR
@@ -49,20 +50,4 @@ graph TD
             SPK_POST[Post-event] --> SPK_POST_US1{No explicit post-event functional user stories found in sources for Speakers.}
         end
     end
-Key Enhancements and Citations:
-• Comprehensive User Roles: The diagram now includes subgraphs for all five specified user roles: Delegates, Exhibitors, Administrators, Moderators, and Speakers.
-• Event Stages: Each user role's subgraph is further segmented by event stages (Pre-event, Day of Event/On-site, Post-event) to reflect the lifecycle of an event.
-• Delegates:
-    ◦ Registration and Payment: User stories for online registration, payment gateway redirection, and confirmation emails are directly from the Assessment_1 document.
-    ◦ Exhibitor Interaction (Virtual): User stories for viewing exhibitor lists, visiting virtual stands, and online communication with exhibitors are drawn from the BookMeIn2 Introduction Transcript.pdf.
-    ◦ On-site Interaction: Implied stories for check-in via QR code (from confirmation email) and general mobile device interaction are included.
-• Exhibitors:
-    ◦ Virtual Stand Setup & Q&A: User stories for setting up and customizing virtual stands and managing delegate questions are from Assessment_1.
-    ◦ Lead Tracking (On-site): User stories for scanning QR codes and recording conversation details for lead tracking are from Assessment_1 and BookMeIn2 Introduction Transcript.pdf.
-    ◦ Post-event Surveys: Access to exhibition-specific surveys is from Assessment_1.
-• Administrators: User stories for setting up event aspects like agenda, speakers, exhibitors, and backend user management are inferred from the system's overall purpose of "organising events and managing the different exhibitors attending, the sessions and speakers happening during the course of the event". These are crucial back-end functionalities for an event management system.
-• Moderators: User stories for managing live Q&A sessions (on-site) and accessing post-event session data and feedback are directly from Assessment_1.
-• Speakers: A user story for accessing their session or stand is derived from the system's role in managing "speakers happening during the course of the event".
-• Clarity and Structure: The use of subgraphs and clear flow arrows (Actor -> Action -> Achievement) enhances readability and adherence to the user story format.
-• Comprehensive Citations: Each user story and its purpose is directly linked to the supporting source material using [i] notation.
-This expanded diagram now provides a much more complete picture of the functional requirements, directly aligning with the Completeness criteria of the assignment rubric.
+```
