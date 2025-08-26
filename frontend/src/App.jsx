@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Layout user={user} onLogout={() => setUser(null)}>
       <Routes>
-        <Route path="/login" element={<LoginPage onLogin={(u)=>setUser(u || {name:'Demo'})} />} />
+        <Route path="/login" element={<LoginPage onLogin={setUser} />} />
         <Route path="/events" element={<Events />} />
         <Route path="/home" element={<Home />} />
         <Route path="*" element={<Navigate to="/" replace />} />
